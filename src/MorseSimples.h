@@ -24,6 +24,8 @@ class MorseSimples {
 			void ponto();
 			void traco();
 
+			void codificar(String string);
+
 			void a();
 			void b();
 			void c();

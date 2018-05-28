@@ -35,6 +35,94 @@ void MorseSimples::traco() {
 	delay(DELAY_INTERNO);
 }
 
+void MorseSimples::codificar(String string) {
+	string.trim();
+	string.toLowerCase();
+
+	for (int pos = 0; pos < string.length(); pos++) {
+		switch(string[pos]) {
+			case 'a':
+				a();
+				break;
+			case 'b':
+				b();
+				break;
+			case 'c':
+				c();
+				break;
+			case 'd':
+				d();
+				break;
+			case 'e':
+				e();
+				break;
+			case 'f':
+				f();
+				break;
+			case 'g':
+				g();
+				break;
+			case 'h':
+				h();
+				break;
+			case 'i':
+				i();
+				break;
+			case 'j':
+				j();
+				break;
+			case 'k':
+				k();
+				break;
+			case 'l':
+				l();
+				break;
+			case 'm':
+				m();
+				break;
+			case 'n':
+				n();
+				break;
+			case 'o':
+				o();
+				break;
+			case 'p':
+				p();
+				break;
+			case 'q':
+				q();
+				break;
+			case 'r':
+				r();
+				break;
+			case 's':
+				s();
+				break;
+			case 't':
+				t();
+				break;
+			case 'u':
+				u();
+				break;
+			case 'v':
+				v();
+				break;
+			case 'w':
+				w();
+				break;
+			case 'x':
+				x();
+				break;
+			case 'y':
+				y();
+				break;
+			case 'z':
+				z();
+				break;
+		}
+	}
+}
+
 void MorseSimples::a() {
 	ponto();
 	traco();
