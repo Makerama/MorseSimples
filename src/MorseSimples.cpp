@@ -42,269 +42,140 @@ void MorseSimples::codificar(String string) {
 	for (int pos = 0; pos < string.length(); pos++) {
 		switch(string[pos]) {
 			case 'a':
-				a();
+				ponto();
+				traco();
 				break;
 			case 'b':
-				b();
+				traco();
+				ponto();
+				ponto();
+				ponto();
 				break;
 			case 'c':
-				c();
+				traco();
+				ponto();
+				traco();
+				ponto();
 				break;
 			case 'd':
-				d();
+				traco();
+				ponto();
+				ponto();
 				break;
 			case 'e':
-				e();
+				ponto();
 				break;
 			case 'f':
-				f();
+				ponto();
+				ponto();
+				traco();
+				ponto();
 				break;
 			case 'g':
-				g();
+				traco();
+				traco();
+				ponto();
 				break;
 			case 'h':
-				h();
+				ponto();
+				ponto();
+				ponto();
+				ponto();
 				break;
 			case 'i':
-				i();
+				ponto();
+				ponto();
 				break;
 			case 'j':
-				j();
+				ponto();
+				traco();
+				traco();
+				traco();
 				break;
 			case 'k':
-				k();
+				traco();
+				ponto();
+				traco();
 				break;
 			case 'l':
-				l();
+				ponto();
+				traco();
+				ponto();
+				ponto();
 				break;
 			case 'm':
-				m();
+				traco();
+				traco();
 				break;
 			case 'n':
-				n();
+				traco();
+				ponto();
 				break;
 			case 'o':
-				o();
+				traco();
+				traco();
+				traco();
 				break;
 			case 'p':
-				p();
+				ponto();
+				traco();
+				traco();
+				ponto();
 				break;
 			case 'q':
-				q();
+				traco();
+				traco();
+				ponto();
+				traco();
 				break;
 			case 'r':
-				r();
+				ponto();
+				traco();
+				ponto();
 				break;
 			case 's':
-				s();
+				ponto();
+				ponto();
+				ponto();
 				break;
 			case 't':
-				t();
+				traco();
 				break;
 			case 'u':
-				u();
+				ponto();
+				ponto();
+				traco();
 				break;
 			case 'v':
-				v();
+				ponto();
+				ponto();
+				ponto();
+				traco();
 				break;
 			case 'w':
-				w();
+				ponto();
+				traco();
+				traco();
 				break;
 			case 'x':
-				x();
+				traco();
+				ponto();
+				ponto();
+				traco();
 				break;
 			case 'y':
-				y();
+				traco();
+				ponto();
+				traco();
+				traco();
 				break;
 			case 'z':
-				z();
+				traco();
+				traco();
+				ponto();
+				ponto();
 				break;
 		}
+		delay(DELAY_CARACTERE);
 	}
-}
-
-void MorseSimples::a() {
-	ponto();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::b() {
-	traco();
-	ponto();
-	ponto();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::c() {
-	traco();
-	ponto();
-	traco();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::d() {
-	traco();
-	ponto();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::e() {
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::f() {
-	ponto();
-	ponto();
-	traco();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::g() {
-	traco();
-	traco();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::h() {
-	ponto();
-	ponto();
-	ponto();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::i() {
-	ponto();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::j() {
-	ponto();
-	traco();
-	traco();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::k() {
-	traco();
-	ponto();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::l() {
-	ponto();
-	traco();
-	ponto();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::m() {
-	traco();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::n() {
-	traco();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::o() {
-	traco();
-	traco();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::p() {
-	ponto();
-	traco();
-	traco();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::q() {
-	traco();
-	traco();
-	ponto();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::r() {
-	ponto();
-	traco();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::s() {
-	ponto();
-	ponto();
-	ponto();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::t() {
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::u() {
-	ponto();
-	ponto();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::v() {
-	ponto();
-	ponto();
-	ponto();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::w() {
-	ponto();
-	traco();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::x() {
-	traco();
-	ponto();
-	ponto();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::y() {
-	traco();
-	ponto();
-	traco();
-	traco();
-	delay(DELAY_CARACTERE);
-}
-
-void MorseSimples::z() {
-	traco();
-	traco();
-	ponto();
-	ponto();
-	delay(DELAY_CARACTERE);
 }
